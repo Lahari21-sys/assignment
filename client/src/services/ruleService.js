@@ -2,7 +2,7 @@
 
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/rules'; // Update with your API URL
+const API_URL = 'https://assignment-3-dcao.onrender.com'; // Update with your API URL
 
 const ruleService = {
   createRule: async (ruleString) => {
